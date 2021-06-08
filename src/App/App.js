@@ -1,6 +1,6 @@
 import React from "react"
 import { Header } from "layouts/index"
-import { SlideBanner, Trend } from "components/index"
+import { SlideBanner, Trend, Feature } from "components/index"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 
@@ -10,6 +10,7 @@ function App() {
             <Header />
             <SlideBanner />
             <Trend />
+            <Feature />
         </div>
     )
 }

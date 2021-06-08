@@ -1,16 +1,11 @@
 import React from "react"
 import { Container, Row, Carousel } from "react-bootstrap"
-import {
-    BANNER_0,
-    BANNER_1,
-    BANNER_2,
-    BANNER_3
-} from "assets/images/ListImages"
+import { BANNER_0, BANNER_1, BANNER_2, BANNER_3 } from "assets/ListImages"
 import "./Style-SlideBanner.scss"
 
 export default function SlideBanner() {
     return (
-        <Container className="mt-5">
+        <Container className="mt-10">
             <Row>
                 <Carousel>
                     <Carousel.Item interval={3000}>
