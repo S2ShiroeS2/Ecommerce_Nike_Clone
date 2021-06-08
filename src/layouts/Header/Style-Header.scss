@@ -1,3 +1,7 @@
+header {
+    background: #f8f9fa;
+}
+
 .navbar {
     .navbar-brand {
         .bx {
@@ -42,11 +46,11 @@
 }
 
 .border-r {
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 .border-c {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
 .p-r {
