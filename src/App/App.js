@@ -1,12 +1,14 @@
 import React from "react"
+import { Header } from "layouts/index"
+import { SlideBanner } from "components/index"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
-import { Header } from "layouts/index"
 
 function App() {
     return (
         <div className="App">
             <Header />
+            <SlideBanner />
         </div>
     )
 }
