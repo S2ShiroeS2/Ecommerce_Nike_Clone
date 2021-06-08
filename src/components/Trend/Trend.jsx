@@ -1,14 +1,14 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { TREND_0, TREND_1 } from "assets/images/ListImages"
+import { TREND_0, TREND_1 } from "assets/ListImages"
 import "./Style-Trend.scss"
 
 export default function Trend() {
     return (
         <Container className="mt-5 trend">
             <div className="trend__title--wrapper">
-                <div className="trend__title--inline">
-                    <h2 className="trend__title--text">Trending</h2>
+                <div className="trend__title--inline title-flex">
+                    <h2 className="title-text">Trending</h2>
                 </div>
             </div>
             <Row>
@@ -26,7 +26,7 @@ export default function Trend() {
                                 Liverpool FC 2021/22 Home Jersey
                             </p>
                             <div className="trend__btn--wrapper">
-                                <a className="trend__btn--link" href="#/">
+                                <a className="btn-link" href="#/">
                                     Shop
                                 </a>
                             </div>

@@ -17,16 +17,7 @@
             margin-right: -16px;
         }
         &--inline {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
             margin-bottom: 24px;
-        }
-        &--text {
-            color: #111;
-            font-weight: 500;
-            font-size: 30px;
-            line-height: 1.166667;
         }
     }
     &__wrapper {
@@ -65,27 +56,6 @@
     &__btn {
         &--wrapper {
             margin-top: 18px;
-        }
-        &--link {
-            padding: 8px 28px;
-            transition: color 0.5s ease-out;
-            position: relative;
-            z-index: 1;
-            margin-left: 0;
-            margin-right: 6px;
-            margin-top: 6px;
-            max-width: 100%;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
-            background: #fff;
-            color: #111;
-            border-radius: 20px;
-            &:hover {
-                text-decoration: none;
-                color: #111;
-                background: rgba(255, 255, 255, 0.75);
-            }
         }
     }
 }

@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <header>
             <Container fluid>
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="light" expand="lg" fixed="top">
                     <Navbar.Brand href="#home">
                         <i className="bx bxs-cube-alt"></i>
                     </Navbar.Brand>
