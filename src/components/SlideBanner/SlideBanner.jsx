@@ -5,7 +5,7 @@ import {
     BANNER_1,
     BANNER_2,
     BANNER_3
-} from "assets/images/ListBanner"
+} from "assets/images/ListImages"
 import "./Style-SlideBanner.scss"
 
 export default function SlideBanner() {

@@ -1,0 +1,91 @@
+.b-r-1 {
+    border-radius: 10px;
+}
+
+.trend {
+    &__card {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+    }
+    &__title {
+        &--wrapper {
+            margin-left: -16px;
+            margin-right: -16px;
+        }
+        &--inline {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 24px;
+        }
+        &--text {
+            color: #111;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 1.166667;
+        }
+    }
+    &__wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
+    &__link {
+        width: 100%;
+        height: 100%;
+    }
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__block-text {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        top: calc(66.66667% - 36px);
+        height: 33.33333%;
+        text-align: left;
+        left: 36px;
+        width: 75%;
+    }
+    &__caption {
+        color: #fff;
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    &__btn {
+        &--wrapper {
+            margin-top: 18px;
+        }
+        &--link {
+            padding: 8px 28px;
+            transition: color 0.5s ease-out;
+            position: relative;
+            z-index: 1;
+            margin-left: 0;
+            margin-right: 6px;
+            margin-top: 6px;
+            max-width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            background: #fff;
+            color: #111;
+            border-radius: 20px;
+            &:hover {
+                text-decoration: none;
+                color: #111;
+                background: rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+}
