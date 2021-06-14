@@ -4,7 +4,7 @@ import Slider from "react-slick"
 import { ProductCarouselItem } from "components/index"
 import "./Style-ProductCarousel.scss"
 
-export default function ProductCarousel() {
+export default function ProductCarousel(props) {
     const settings = {
         dots: true,
         infinite: true,
@@ -14,10 +14,10 @@ export default function ProductCarousel() {
     }
     return (
         <div className="mt-5">
-            <Container>
+            <Container className="pt-5">
                 <Row className="product-carousel__title--wrapper">
                     <div className="title-flex product-carousel__title--inline">
-                        <h2 className="title-text">Just In: Women's Apparel</h2>
+                        <h2 className="title-text">{props.title}</h2>
                     </div>
                 </Row>
             </Container>
