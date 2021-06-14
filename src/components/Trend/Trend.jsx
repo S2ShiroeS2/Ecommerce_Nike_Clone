@@ -47,7 +47,7 @@ export default function Trend() {
                                 Nike Football Impulse Pack
                             </p>
                             <div className="trend__btn--wrapper">
-                                <a className="trend__btn--link" href="#/">
+                                <a className="btn-link" href="#/">
                                     Shop
                                 </a>
                             </div>
