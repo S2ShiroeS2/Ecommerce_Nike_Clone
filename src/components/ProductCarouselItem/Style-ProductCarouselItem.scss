@@ -1,0 +1,36 @@
+.card-img-top {
+    object-fit: cover;
+}
+.product-carousel-item {
+    &__name {
+        display: flex;
+        position: relative;
+        left: 0;
+        right: 0;
+        white-space: pre-line;
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #111;
+        bottom: 0;
+    }
+    &__product-name {
+        order: 1;
+        color: #111;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    &__product-type {
+        order: 2;
+        color: #757575;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    &__product-price {
+        order: 3;
+        color: #111;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
