@@ -6,6 +6,9 @@ import TREND_0 from "assets/images/trend/Trend-00.jpg"
 import TREND_1 from "assets/images/trend/Trend-01.jpg"
 import FEATURE from "assets/images/feature/feature.jpg"
 import PRODUCT_IM from "assets/images/product/women/product-item.jpg"
+import MEN from "assets/images/moreshoes/Men.jpg"
+import WOMEN from "assets/images/moreshoes/Women.jpg"
+import KID from "assets/images/moreshoes/Kid.jpg"
 
 export {
     BANNER_0,
@@ -15,5 +18,8 @@ export {
     TREND_0,
     TREND_1,
     FEATURE,
-    PRODUCT_IM
+    PRODUCT_IM,
+    MEN,
+    WOMEN,
+    KID
 }
