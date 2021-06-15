@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+    .merch-menu {
+        &__wrapper {
+            max-width: 920px !important;
+            width: 100%;
+        }
+    }
+}
+
+.merch-menu {
+    &__box-menu {
+        &:hover .merch-menu__list-hidden {
+            transition: all 0.5s ease;
+            max-height: 50em;
+        }
+    }
+    &__title {
+        line-height: 1.5;
+        font-weight: 400;
+        margin-bottom: 24px;
+        word-break: break-word;
+        font-size: inherit;
+        span {
+            color: #111;
+        }
+    }
+    &__item {
+        margin-bottom: 12px;
+    }
+    &__link {
+        color: #757575;
+        transition: all 0.3s;
+        display: block;
+        font-weight: 400;
+        font-family: inherit;
+        font-size: inherit;
+        &:hover {
+            text-decoration: none;
+            color: #111;
+        }
+    }
+    &__list-hidden {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.5s ease;
+        opacity: 1;
+        transition-property: max-height, opacity;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+    }
+}

@@ -4,7 +4,8 @@ import {
     Trend,
     Feature,
     ProductCarousel,
-    MoreShoes
+    MoreShoes,
+    MerchMenu
 } from "components/index"
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
             <ProductCarousel title="Just In: Women's Apparel" />
             <ProductCarousel title="Just In: Men's Apparel" />
             <MoreShoes />
+            <MerchMenu />
         </>
     )
 }
