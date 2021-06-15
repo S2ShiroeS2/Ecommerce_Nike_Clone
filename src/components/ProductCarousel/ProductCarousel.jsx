@@ -22,7 +22,7 @@ export default function ProductCarousel(props) {
                 </Row>
             </Container>
             <Container className="pl-0 pr-0">
-                <Slider {...settings}>
+                <Slider className="fix-row-15" {...settings}>
                     <ProductCarouselItem />
                     <ProductCarouselItem />
                     <ProductCarouselItem />
