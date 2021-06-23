@@ -14,13 +14,13 @@ export default function Header() {
         <header>
             <Container fluid>
                 <Navbar bg="light" expand="lg" fixed="top">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <i className="bx bxs-cube-alt"></i>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="flex-box ml-auto mr-5">
-                            <Nav.Link href="#home">Men</Nav.Link>
+                            <Nav.Link href="/men">Men</Nav.Link>
                             <Nav.Link href="#link">Women</Nav.Link>
                             <Nav.Link href="#link">Kids</Nav.Link>
                             <Nav.Link href="#link">Sale</Nav.Link>
