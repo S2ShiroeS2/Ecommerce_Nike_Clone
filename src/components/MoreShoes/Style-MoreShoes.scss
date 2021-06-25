@@ -21,3 +21,24 @@
         width: 75%;
     }
 }
+
+@media only screen and (max-width: 575px) {
+    .more-shoes {
+        &__title--wrapper {
+            margin-left: 0 !important;
+        }
+        &__item {
+            margin-bottom: 24px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .card {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+    .flex-m {
+        flex-direction: column;
+    }
+}
