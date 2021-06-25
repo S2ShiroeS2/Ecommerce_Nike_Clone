@@ -9,6 +9,10 @@
             height: 100%;
         }
     }
+    &__slide-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 .slick-arrow {
     height: 30px;
@@ -26,4 +30,21 @@
 }
 .slick-next {
     right: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+    .product-carousel {
+        &__title--wrapper {
+            margin-left: 0 !important;
+        }
+    }
+    .fix-p {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    // .slick-initialized {
+    //     .slick-slide {
+    //         width: 380px !important;
+    //     }
+    // }
 }
