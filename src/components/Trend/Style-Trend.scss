@@ -59,3 +59,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 575px) {
+    .flex-mobile {
+        flex-direction: column;
+    }
+    .trend {
+        &__title--wrapper {
+            margin-left: 0;
+        }
+        &__card {
+            &:first-child {
+                padding-left: 15px !important;
+                margin-bottom: 15px;
+            }
+            &:last-child {
+                padding-right: 15px !important;
+            }
+        }
+    }
+}

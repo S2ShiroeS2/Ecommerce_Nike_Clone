@@ -6,14 +6,14 @@ import "./Style-Feature.scss"
 export default function Feature() {
     return (
         <Container className="mt-5">
-            <Row>
+            <Row className="fix-m-l">
                 <div className="feature__title--wrapper">
                     <div className="feature__title--inline title-flex">
                         <h2 className="title-text">Featured</h2>
                     </div>
                 </div>
             </Row>
-            <Row className="feature__image-pos">
+            <Row className="feature__image-pos fix-m-l fix-m-r">
                 <div className="feature__wrapper">
                     <img
                         className="feature__wrapper--image"

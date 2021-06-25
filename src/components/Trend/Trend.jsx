@@ -11,7 +11,7 @@ export default function Trend() {
                     <h2 className="title-text">Trending</h2>
                 </div>
             </div>
-            <Row>
+            <Row className="flex-mobile">
                 <Col className="pl-0 trend__card">
                     <div className="trend__wrapper">
                         <div className="trend__link">
