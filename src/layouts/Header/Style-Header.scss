@@ -104,6 +104,9 @@ header {
 }
 @media only screen and (max-width: 991px) {
     .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
         .navbar-nav {
             .nav-link {
                 width: 100%;

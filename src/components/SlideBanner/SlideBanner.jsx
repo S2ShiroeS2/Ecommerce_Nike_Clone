@@ -6,7 +6,7 @@ import "./Style-SlideBanner.scss"
 export default function SlideBanner() {
     return (
         <Container className="mt-10">
-            <Row>
+            <Row className="reset-margin">
                 <Carousel>
                     <Carousel.Item interval={3000}>
                         <img
