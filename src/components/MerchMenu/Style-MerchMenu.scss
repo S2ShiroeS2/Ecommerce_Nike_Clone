@@ -49,3 +49,32 @@
         transform: translateZ(0);
     }
 }
+
+@media only screen and (max-width: 575px) {
+    .active-menu {
+        max-height: 50em !important;
+        transition: all 0.5s ease !important;
+    }
+    .merch-menu {
+        &__title {
+            &:hover {
+                .merch-menu__list-item {
+                    max-height: 50em !important;
+                    transition: all 0.5s ease !important;
+                }
+            }
+        }
+        &__box-menu {
+            flex-direction: column;
+        }
+        &__list-item {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            transition-property: max-height, opacity;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+        }
+    }
+}

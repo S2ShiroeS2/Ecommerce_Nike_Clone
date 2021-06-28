@@ -25,6 +25,7 @@ header {
 .user {
     display: flex;
     align-items: center;
+    margin-left: 3rem;
     .nav-link {
         font-size: 13px;
         padding: 0.5rem 0.5rem;
@@ -84,4 +85,53 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+}
+
+.navbar-nav {
+    margin-right: 3rem !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    .user {
+        margin-left: 0rem !important;
+        .nav-link {
+            font-size: 12px;
+        }
+    }
+    .navbar-nav {
+        margin-right: 1rem !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
+        .navbar-nav {
+            .nav-link {
+                width: 100%;
+                padding-left: 1rem;
+            }
+        }
+    }
+    .form-inline {
+        justify-content: center;
+        width: 100% !important;
+        .form-control {
+            width: 90% !important;
+        }
+    }
+    .user {
+        .nav-link {
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .form-inline {
+        .form-control {
+            width: 80% !important;
+        }
+    }
 }

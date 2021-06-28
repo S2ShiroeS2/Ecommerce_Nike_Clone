@@ -19,7 +19,7 @@ export default function Header() {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="flex-box ml-auto mr-5">
+                        <Nav className="flex-box ml-auto">
                             <Nav.Link href="/men">Men</Nav.Link>
                             <Nav.Link href="#link">Women</Nav.Link>
                             <Nav.Link href="#link">Kids</Nav.Link>
@@ -36,7 +36,7 @@ export default function Header() {
                                 <i className="bx bx-search"></i>
                             </Button>
                         </Form>
-                        <div className="user ml-5">
+                        <div className="user">
                             <Nav.Link href="/signup">Sign Up</Nav.Link>
                             <Nav.Link href="/register">Register</Nav.Link>
                             <Nav.Link href="/cart" className="shop-bag">

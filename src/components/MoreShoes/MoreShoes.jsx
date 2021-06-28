@@ -12,8 +12,8 @@ export default function MoreShoes() {
                         <h2 className="title-text">More Shoes</h2>
                     </div>
                 </Row>
-                <Row className="fix-row-30">
-                    <Col>
+                <Row className="fix-row-30 flex-m">
+                    <Col className="more-shoes__item">
                         <Card>
                             <Card.Img variant="top" src={MEN} />
                             <div className="more-shoes__wrapper">
@@ -25,7 +25,7 @@ export default function MoreShoes() {
                             </div>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col className="more-shoes__item">
                         <Card>
                             <Card.Img variant="top" src={WOMEN} />
                             <div className="more-shoes__wrapper">
@@ -37,7 +37,7 @@ export default function MoreShoes() {
                             </div>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col className="more-shoes__item">
                         <Card>
                             <Card.Img variant="top" src={KID} />
                             <div className="more-shoes__wrapper">

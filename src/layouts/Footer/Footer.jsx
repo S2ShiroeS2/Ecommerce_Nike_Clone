@@ -153,22 +153,22 @@ export default function Footer() {
                         <ul className="footer__social--list">
                             <li className="footer__social--item">
                                 <a href="#/">
-                                    <i class="bx bxl-twitter"></i>
+                                    <i className="bx bxl-twitter"></i>
                                 </a>
                             </li>
                             <li className="footer__social--item">
                                 <a href="#/">
-                                    <i class="bx bxl-facebook"></i>
+                                    <i className="bx bxl-facebook"></i>
                                 </a>
                             </li>
                             <li className="footer__social--item">
                                 <a href="#/">
-                                    <i class="bx bxl-youtube"></i>
+                                    <i className="bx bxl-youtube"></i>
                                 </a>
                             </li>
                             <li className="footer__social--item">
                                 <a href="#/">
-                                    <i class="bx bxl-instagram"></i>
+                                    <i className="bx bxl-instagram"></i>
                                 </a>
                             </li>
                         </ul>
@@ -178,7 +178,7 @@ export default function Footer() {
                     <Col className="footer__bottom--left">
                         <div className="footer__bottom--flex-box">
                             <a href="#/">
-                                <i class="bx bxs-location-plus"></i>
+                                <i className="bx bxs-location-plus"></i>
                                 <span>Vietnam</span>
                             </a>
                             <div className="footer__bottom--copyright">

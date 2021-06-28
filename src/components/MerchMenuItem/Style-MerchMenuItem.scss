@@ -1,0 +1,17 @@
+@media only screen and (max-width: 575px) {
+    .merch-menu {
+        &__mobile {
+            overflow: hidden;
+            max-height: 0;
+            transition: all 0.5s ease;
+            opacity: 1;
+            transition-property: max-height, opacity;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+        }
+    }
+    .active {
+        max-height: 50em !important;
+        transition: all 0.5s ease !important;
+    }
+}
