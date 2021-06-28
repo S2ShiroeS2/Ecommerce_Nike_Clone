@@ -5,6 +5,7 @@ import ProductCarousel from "components/ProductCarousel/ProductCarousel"
 import ProductCarouselItem from "components/ProductCarouselItem/ProductCarouselItem"
 import MoreShoes from "components/MoreShoes/MoreShoes"
 import MerchMenu from "components/MerchMenu/MerchMenu"
+import MerchMenuItem from "components/MerchMenuItem/MerchMenuItem"
 
 export {
     SlideBanner,
@@ -13,5 +14,6 @@ export {
     ProductCarousel,
     ProductCarouselItem,
     MoreShoes,
-    MerchMenu
+    MerchMenu,
+    MerchMenuItem
 }
