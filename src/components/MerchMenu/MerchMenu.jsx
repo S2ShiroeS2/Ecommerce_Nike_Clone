@@ -11,7 +11,7 @@ export default function MerchMenu() {
                         <h4 className="merch-menu__title">
                             <span>Icons</span>
                         </h4>
-                        <div>
+                        <div className="merch-menu__list-item">
                             <ul>
                                 <li className="merch-menu__item">
                                     <a className="merch-menu__link" href="#/">
@@ -82,7 +82,7 @@ export default function MerchMenu() {
                         <h4 className="merch-menu__title">
                             <span>Shoes</span>
                         </h4>
-                        <div>
+                        <div className="merch-menu__list-item">
                             <ul>
                                 <li className="merch-menu__item">
                                     <a className="merch-menu__link" href="#/">
@@ -145,7 +145,7 @@ export default function MerchMenu() {
                         <h4 className="merch-menu__title">
                             <span>Clothing</span>
                         </h4>
-                        <div>
+                        <div className="merch-menu__list-item">
                             <ul>
                                 <li className="merch-menu__item">
                                     <a className="merch-menu__link" href="#/">
@@ -208,7 +208,7 @@ export default function MerchMenu() {
                         <h4 className="merch-menu__title">
                             <span>Kids'</span>
                         </h4>
-                        <div>
+                        <div className="merch-menu__list-item">
                             <ul>
                                 <li className="merch-menu__item">
                                     <a className="merch-menu__link" href="#/">

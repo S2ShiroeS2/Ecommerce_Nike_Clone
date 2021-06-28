@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter } from "react-router-dom"
+import { Switch } from "react-router-dom"
 import LayoutWrapper from "layouts/LayoutWrapper"
 import RouteWrapper from "routes/RouteWrapper"
 import { HomePage, MenPage } from "pages/index"
@@ -8,7 +8,7 @@ import "./App.css"
 
 function App() {
     return (
-        <BrowserRouter>
+        <Switch>
             <RouteWrapper
                 exact
                 path="/"
@@ -20,7 +20,7 @@ function App() {
                 component={MenPage}
                 layout={LayoutWrapper}
             />
-        </BrowserRouter>
+        </Switch>
     )
 }
 
