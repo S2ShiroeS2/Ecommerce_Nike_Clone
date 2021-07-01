@@ -62,6 +62,10 @@ ul {
     margin-top: 6rem !important;
 }
 
+.mt-6 {
+    margin-top: 4rem !important;
+}
+
 .fix-row-30 {
     margin-left: -30px;
     margin-right: -30px;

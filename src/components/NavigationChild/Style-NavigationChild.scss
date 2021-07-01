@@ -1,0 +1,89 @@
+.clear-flex {
+    display: block;
+}
+
+.nav-child {
+    &__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        max-width: 1808px;
+        width: auto;
+        padding-top: 26px;
+        padding-bottom: 34px;
+    }
+    &__title {
+        white-space: nowrap;
+        margin-right: 100px;
+        min-width: 175px;
+        transition: font-size 0.2s;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 0 20px;
+        align-items: flex-start;
+        margin-bottom: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    &__list-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .nav-item {
+            display: inline-block;
+            margin-right: 16px;
+            & + .nav-item {
+                margin-left: 16px;
+            }
+            a {
+                font-weight: 400;
+                padding: 4px 0;
+                transition: color 0.2s ease-in-out;
+                color: #111;
+                &:hover {
+                    color: #757575;
+                }
+            }
+        }
+    }
+    &__block-empty {
+        white-space: nowrap;
+        margin-right: 100px;
+        min-width: 175px;
+        transition: font-size 0.2s;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 0 20px;
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .nav-child {
+        &__title {
+            padding-left: 0;
+            align-items: inherit;
+        }
+        &__list-item {
+            padding-left: 0;
+            padding-top: 0;
+            margin-top: 12px;
+            width: auto;
+            overflow: visible;
+            .nav-item {
+                position: relative;
+            }
+        }
+        &__block-empty {
+            display: block;
+            visibility: hidden;
+            margin-left: 100px;
+            margin-right: 0;
+            overflow: hidden;
+            height: 0;
+            align-self: normal;
+            min-width: 175px;
+            padding-left: 0;
+        }
+    }
+}
