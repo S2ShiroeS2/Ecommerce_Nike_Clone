@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import {
     SlideBanner,
     Trend,
@@ -7,15 +7,21 @@ import {
     MoreShoes,
     MerchMenu
 } from "components/index"
+import response from "data/ListProductHome.json"
 
 export default function HomePage() {
+    const [dataProducts, setDataProducts] = useState()
+
+    useEffect(() => {
+        setDataProducts(response.listProduct)
+    }, [])
+
     return (
         <>
             <SlideBanner />
             <Trend />
             <Feature />
-            <ProductCarousel title="Just In: Women's Apparel" />
-            <ProductCarousel title="Just In: Men's Apparel" />
+            <ProductCarousel title="Sunny Day Must-Haves" data={dataProducts} />
             <MoreShoes />
             <MerchMenu />
         </>
