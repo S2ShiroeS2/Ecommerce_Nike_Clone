@@ -6,6 +6,12 @@
     &__card {
         cursor: pointer;
         transition: all 0.3s ease;
+        &:first-child {
+            padding-left: 0 !important;
+        }
+        &:last-child {
+            padding-right: 0 !important;
+        }
         &:hover {
             transform: translateY(-10px);
             transition: all 0.3s ease;
@@ -56,6 +62,14 @@
     &__btn {
         &--wrapper {
             margin-top: 18px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .trend {
+        &__wrapper {
+            height: 700px;
         }
     }
 }
