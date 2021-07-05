@@ -1,0 +1,30 @@
+{
+    "home": [
+        {
+            "cardID": "f9f102e7-c52a-46c5-a66e-66944a583fbd",
+            "altText": "Nike. Just Do It",
+            "imageUrl": "https://static.nike.com/a/images/f_auto/w_1920,c_limit/c9f8b9f5-2139-4345-84fd-d75256179d9b/nike-just-do-it.jpg",
+            "text": "Indy Icon Clash Bra"
+        },
+        {
+            "cardID": "62800465-4c2d-4314-b03f-b95b165f58b2",
+            "altText": "Nike. Just Do It",
+            "imageUrl": "https://static.nike.com/a/images/f_auto/w_1920,c_limit/35a037e9-b99f-4b6e-bd55-ab141b157d18/nike-just-do-it.jpg",
+            "text": "Just In: Swoosh 50 "
+        }
+    ],
+    "men": [
+        {
+            "cardID": "1b1aa6ae-b801-4d35-be62-39c6fe28846f",
+            "altText": "Men's Shoes, Clothing & Accessories",
+            "imageUrl": "https://static.nike.com/a/images/f_auto/w_960,c_limit/95c9474f-7080-49e4-8ed3-aab42f0e6496/men-s-shoes-clothing-accessories.jpg",
+            "text": "Be True: Proudly In Motion"
+        },
+        {
+            "cardID": "3cfad709-ded5-4451-ad74-b990d0866369",
+            "altText": "Men's Shoes, Clothing & Accessories",
+            "imageUrl": "https://static.nike.com/a/images/f_auto/w_960,c_limit/eac924e7-a114-471f-8f3d-48222d0307fc/men-s-shoes-clothing-accessories.jpg",
+            "text": "Just In: Pineapple Inspired Pack Featuring the Air Zoom Type PRM"
+        }
+    ]
+}

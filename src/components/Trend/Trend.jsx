@@ -1,9 +1,19 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { TREND_0, TREND_1 } from "assets/ListImages"
+import PropTypes from "prop-types"
 import "./Style-Trend.scss"
 
-export default function Trend() {
+Trend.propTypes = {
+    data: PropTypes.array
+}
+
+Trend.defaultProps = {
+    data: []
+}
+
+export default function Trend(props) {
+    const { data } = props
     return (
         <Container className="mt-5 trend">
             <div className="trend__title--wrapper">
@@ -12,48 +22,27 @@ export default function Trend() {
                 </div>
             </div>
             <Row className="flex-mobile">
-                <Col className="pl-0 trend__card">
-                    <div className="trend__wrapper">
-                        <div className="trend__link">
-                            <img
-                                className="trend__image b-r-1"
-                                src={TREND_0}
-                                alt="trend-00"
-                            />
-                        </div>
-                        <div className="trend__block-text">
-                            <p className="trend__caption">
-                                Liverpool FC 2021/22 Home Jersey
-                            </p>
-                            <div className="trend__btn--wrapper">
-                                <a className="btn-link" href="#/">
-                                    Shop
-                                </a>
+                {data.map(item => (
+                    <Col key={item.cardID} className="trend__card">
+                        <div className="trend__wrapper">
+                            <div className="trend__link">
+                                <img
+                                    className="trend__image b-r-1"
+                                    src={item.imageUrl}
+                                    alt="trend-00"
+                                />
+                            </div>
+                            <div className="trend__block-text">
+                                <p className="trend__caption">{item.text}</p>
+                                <div className="trend__btn--wrapper">
+                                    <a className="btn-link" href="#/">
+                                        Shop
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </Col>
-                <Col className="pr-0 trend__card">
-                    <div className="trend__wrapper">
-                        <div className="trend__link">
-                            <img
-                                className="trend__image b-r-1"
-                                src={TREND_1}
-                                alt="trend-00"
-                            />
-                        </div>
-                        <div className="trend__block-text">
-                            <p className="trend__caption">
-                                Nike Football Impulse Pack
-                            </p>
-                            <div className="trend__btn--wrapper">
-                                <a className="btn-link" href="#/">
-                                    Shop
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </Col>
+                    </Col>
+                ))}
             </Row>
         </Container>
     )
