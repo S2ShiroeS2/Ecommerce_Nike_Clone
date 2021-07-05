@@ -1,3 +1,8 @@
+.card {
+    &:hover {
+        cursor: pointer;
+    }
+}
 .card-img-top {
     object-fit: cover;
 }
