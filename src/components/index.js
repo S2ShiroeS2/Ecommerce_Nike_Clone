@@ -7,6 +7,7 @@ import MoreShoes from "components/MoreShoes/MoreShoes"
 import MerchMenu from "components/MerchMenu/MerchMenu"
 import MerchMenuItem from "components/MerchMenuItem/MerchMenuItem"
 import NavigationChild from "components/NavigationChild/NavigationChild"
+import Banner from "components/Banner/Banner"
 
 export {
     SlideBanner,
@@ -17,5 +18,6 @@ export {
     MoreShoes,
     MerchMenu,
     MerchMenuItem,
-    NavigationChild
+    NavigationChild,
+    Banner
 }

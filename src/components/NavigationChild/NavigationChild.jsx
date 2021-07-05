@@ -1,8 +1,11 @@
 import React from "react"
-import { Container, Row, Nav } from "react-bootstrap"
+import { useRouteMatch } from "react-router-dom"
+import { Container, Nav } from "react-bootstrap"
+
 import "./Style-NavigationChild.scss"
 
 export default function NavigationChild() {
+    const routeMatch = useRouteMatch()
     return (
         <Container className="nav-child">
             <div className="clear-flex">
@@ -10,13 +13,19 @@ export default function NavigationChild() {
                     <h1 className="nav-child__title">Men</h1>
                     <div className="nav-child__list-item">
                         <Nav.Item>
-                            <Nav.Link href="/shoes">Shoes</Nav.Link>
+                            <Nav.Link href={`${routeMatch.path}/shoes`}>
+                                Shoes
+                            </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="/clothing">Clothing</Nav.Link>
+                            <Nav.Link href={`${routeMatch.path}/clothing`}>
+                                Clothing
+                            </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="/gear">Gear</Nav.Link>
+                            <Nav.Link href={`${routeMatch.path}/gear`}>
+                                Gear
+                            </Nav.Link>
                         </Nav.Item>
                     </div>
                     <div className="nav-child__block-empty">Men</div>

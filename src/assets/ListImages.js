@@ -9,6 +9,7 @@ import PRODUCT_IM from "assets/images/product/women/product-item.jpg"
 import MEN from "assets/images/moreshoes/Men.jpg"
 import WOMEN from "assets/images/moreshoes/Women.jpg"
 import KID from "assets/images/moreshoes/Kid.jpg"
+import BANNER_MEN from "assets/images/banners/Banner-men.jpg"
 
 export {
     BANNER_0,
@@ -21,5 +22,6 @@ export {
     PRODUCT_IM,
     MEN,
     WOMEN,
-    KID
+    KID,
+    BANNER_MEN
 }
