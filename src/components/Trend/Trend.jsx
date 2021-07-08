@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { TREND_0, TREND_1 } from "assets/ListImages"
 import PropTypes from "prop-types"
 import "./Style-Trend.scss"
 

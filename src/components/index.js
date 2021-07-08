@@ -8,6 +8,7 @@ import MerchMenu from "components/MerchMenu/MerchMenu"
 import MerchMenuItem from "components/MerchMenuItem/MerchMenuItem"
 import NavigationChild from "components/NavigationChild/NavigationChild"
 import Banner from "components/Banner/Banner"
+import TheLatest from "components/TheLatest/TheLatest"
 
 export {
     SlideBanner,
@@ -19,5 +20,6 @@ export {
     MerchMenu,
     MerchMenuItem,
     NavigationChild,
-    Banner
+    Banner,
+    TheLatest
 }
