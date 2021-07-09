@@ -9,7 +9,7 @@ export default function TheLatest() {
             <Row className="fix-m-l">
                 <div className="latest__title--wrapper">
                     <div className="latest__title--inline title-flex">
-                        <h2 className="title-text">latestd</h2>
+                        <h2 className="title-text">The Latest</h2>
                     </div>
                 </div>
             </Row>
