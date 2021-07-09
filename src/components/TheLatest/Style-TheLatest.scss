@@ -1,0 +1,114 @@
+.latest {
+    &__image-pos {
+        position: relative;
+    }
+    &__title {
+        &--wrapper {
+            width: 100%;
+        }
+    }
+    &__wrapper {
+        width: 100%;
+        height: 700px;
+        &--video {
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+    &__title {
+        &--inline {
+            margin-bottom: 24px;
+        }
+    }
+    &__block-text {
+        justify-content: flex-end;
+        top: calc(66.66667% - 36px);
+        height: 33.33333%;
+        text-align: left;
+        left: 36px;
+        width: 75%;
+        position: absolute;
+        &--content {
+            word-break: keep-all;
+        }
+        &--label {
+            color: #fff;
+            margin-bottom: 4px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        &--caption {
+            color: #fff;
+            margin-bottom: 8px;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 0.833333;
+        }
+    }
+    &__btn-wrap {
+        margin-top: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .fix-m-l {
+        margin-left: 0 !important;
+    }
+    .fix-m-r {
+        margin-right: 0 !important;
+    }
+    .latest {
+        &__block-text {
+            position: relative;
+            justify-content: flex-start;
+            top: 0;
+            left: 0;
+            margin-top: 24px;
+            width: 100%;
+            &--label,
+            &--caption {
+                color: #111;
+            }
+            &--label {
+                font-weight: 400;
+            }
+            &--caption {
+                font-size: 48px;
+            }
+        }
+        &__btn-wrap {
+            .btn-link {
+                color: #fff;
+                background: #111;
+                &:hover {
+                    background: rgba(0, 0, 0, 0.75);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .latest {
+        &__block-text {
+            width: 40%;
+            top: calc(66.66667% - 100px);
+            &--caption {
+                font-size: 48px;
+            }
+        }
+        &__btn-wrap {
+            margin-top: 1.5rem;
+        }
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .latest {
+        &__block-text {
+            width: 75%;
+            top: calc(66.66667% - 36px);
+        }
+    }
+}
